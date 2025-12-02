@@ -1,0 +1,9 @@
+### POST Request - Addition
+POST http://localhost:7071/api/calculator
+Content-Type: application/json
+
+{
+    "operator": "add",
+    "a": 5,
+    "b": 10
+}

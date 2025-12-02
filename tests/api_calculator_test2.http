@@ -1,0 +1,34 @@
+### GET Request - Addition (+)
+# Note: "+" is a special character in URLs (it means space), so we sometimes use "add" or encode it as %2B
+GET http://localhost:7071/api/calculator/10/5/add
+Content-Type: application/json
+
+###
+
+### GET Request - Subtraction (-)
+GET http://localhost:7071/api/calculator/10/5/-
+Content-Type: application/json
+
+###
+
+### GET Request - Multiplication (*)
+GET http://localhost:7071/api/calculator/10/5/*
+Content-Type: application/json
+
+###
+
+### GET Request - Division (div)
+GET http://localhost:7071/api/calculator/20/4/div
+Content-Type: application/json
+
+###
+
+### GET Request - Division by Zero (Should fail nicely)
+GET http://localhost:7071/api/calculator/10/0/div
+Content-Type: application/json
+
+###
+
+### GET Request - Invalid Operator (Should return 400 Bad Request)
+GET http://localhost:7071/api/calculator/10/5/modulo
+Content-Type: application/json
