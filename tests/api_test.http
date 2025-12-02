@@ -1,0 +1,29 @@
+### GET Request to HelloWorldTrigger
+GET http://localhost:7071/api/HelloWorldTrigger
+Content-Type: application/json
+
+###
+
+### POST Request to HelloWorldTrigger
+POST http://localhost:7071/api/HelloWorldTrigger
+Content-Type: application/json
+
+{
+    "message": "Hello from POST request"
+}
+
+###
+
+### GET Request with query parameters
+GET http://localhost:7071/api/HelloWorldTrigger?name=Azure&version=1.0
+Content-Type: application/json
+
+###
+
+### POST Request with form data
+POST http://localhost:7071/api/HelloWorldTrigger
+Content-Type: application/x-www-form-urlencoded
+
+name=Azure&message=Hello World
+
+###
