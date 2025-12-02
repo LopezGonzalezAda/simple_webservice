@@ -1,0 +1,29 @@
+### GET Request to CalculatorTrigger - Basic Addition
+GET http://localhost:7071/api/calculator/5/3
+Content-Type: application/json
+
+###
+
+### GET Request to CalculatorTrigger - Larger Numbers
+GET http://localhost:7071/api/calculator/100/250
+Content-Type: application/json
+
+###
+
+### GET Request to CalculatorTrigger - Negative Numbers
+GET http://localhost:7071/api/calculator/-10/5
+Content-Type: application/json
+
+###
+
+### GET Request to CalculatorTrigger - Zero Values
+GET http://localhost:7071/api/calculator/0/42
+Content-Type: application/json
+
+###
+
+### GET Request to CalculatorTrigger - Both Negative
+GET http://localhost:7071/api/calculator/-15/-25
+Content-Type: application/json
+
+###
