@@ -4,6 +4,6 @@ namespace MCT.Functions.Models
     {
         public int A { get; set; }
         public int B { get; set; }
-        public string Operator { get; set; }
+        public string? Operator { get; set; }
     }
 }
