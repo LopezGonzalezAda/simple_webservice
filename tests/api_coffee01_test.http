@@ -1,0 +1,2 @@
+### Get All Coffee Transactions
+GET http://localhost:7071/api/transactions

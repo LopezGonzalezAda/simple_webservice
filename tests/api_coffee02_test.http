@@ -1,0 +1,17 @@
+### Get Coffee Names
+GET http://localhost:7071/api/coffees
+
+### Get Total Count
+GET http://localhost:7071/api/transactions/count
+
+### Insert New Transaction
+POST http://localhost:7071/api/transactions
+Content-Type: application/json
+
+{
+    "dateTime": "2025-12-02T12:00:00",
+    "cashType": "card",
+    "card": "ANON-TEST-1234",
+    "money": 4.50,
+    "coffeeName": "Espresso"
+}
